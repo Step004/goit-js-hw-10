@@ -1,0 +1,58 @@
+.form {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    margin-top: 10px;
+    border-color: #808080;
+}
+
+input[type="number"]:hover {
+    border-color: black; 
+ }
+
+/* input[type="number"]:active {
+    border-color: #4E75FF;
+} */
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+fieldset:hover {
+    border-color: black;
+}
+
+
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    border: none;
+    color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+
+button:hover {
+    background: #6c8cff;
+}
